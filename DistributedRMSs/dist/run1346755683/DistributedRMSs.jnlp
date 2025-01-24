@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DistributedRMSs.jnlp">
+  <information>
+    <title>DistributedRMSs</title>
+    <vendor>Admin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DistributedRMSs.jar" size="80203" download="eager" />
+    <jar href="lib\mongo-java-driver-3.11.2-javadoc.jar" size="4126528" download="eager" />
+    <jar href="lib\mongo-java-driver-3.11.2.jar" size="2301836" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DistributedRMSs" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ressourcemanagement.DRMSApplication"  name="DistributedRMSs" />
+  <update check="always"/>
+</jnlp>
